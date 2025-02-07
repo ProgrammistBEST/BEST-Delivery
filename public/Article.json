@@ -1,0 +1,6850 @@
+[
+  {
+    "Vendorcode": "065",
+    "Size": "40",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "065",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "065",
+    "Size": "42",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "065",
+    "Size": "43",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "065",
+    "Size": "44",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "065",
+    "Size": "45",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067",
+    "Size": "40",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067",
+    "Size": 43,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067",
+    "Size": 44,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067",
+    "Size": 45,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-1",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-1",
+    "Size": 43,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-1",
+    "Size": 44,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-1",
+    "Size": 45,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-2",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-2",
+    "Size": 43,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-2",
+    "Size": 44,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-2",
+    "Size": 45,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-3",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-3",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-3",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-3",
+    "Size": 43,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-3",
+    "Size": 44,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-3",
+    "Size": 45,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-4",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-4",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-4",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-4",
+    "Size": 43,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-4",
+    "Size": 44,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "067-4",
+    "Size": 45,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-1",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-10",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-2",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "072-7",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-10",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-5",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "073-8",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "075",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075 -7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075 -7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "075-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "34",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "35",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "36",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "37",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "38",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "39",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "40",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-10",
+    "Size": "42",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "34",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "35",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "36",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "37",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "38",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "39",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "40",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-5",
+    "Size": "42",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "34",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "35",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "36",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "37",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "38",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "39",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "40",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "077-8",
+    "Size": "42",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-1",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-2",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-7",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "079-10",
+    "Size": 42,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-1",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "34",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "35",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "36",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "37",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "38",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "39",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "40",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "42",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "43",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "44",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-2",
+    "Size": "45",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "080-3",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "084-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-1",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-2",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "086-3",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-1",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-2",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "088-3",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "090-1",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-10",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "090-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "09367",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "09367",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 34,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 35,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "093-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "24",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "25",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "26",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "27",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "28",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "29",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "31",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "32",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "33",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": "34",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-10",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-11",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": "24",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": "25",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": "29",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": "30",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": "31",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "24",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "25",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "26",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "30",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "31",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "32",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "33",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "34",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-3",
+    "Size": "35",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "26",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "27",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "28",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "29",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "30",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "31",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "32",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "33",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": "34",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-4",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "24",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "25",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "26",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "27",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "28",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "34",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-5",
+    "Size": "35",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "26",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "27",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "30",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "31",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "32",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "33",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": "34",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-6",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": "24",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": "25",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": "26",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 29,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 30,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 31,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 32,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 33,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-7",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 24,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 25,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 26,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 27,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 28,
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": "29",
+    "Pair": 40,
+    "Comment": "40пар в 1коробку"
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": "30",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": "31",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": "32",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": "33",
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "094-8",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-1",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-10",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "096-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-10",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "097-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-10",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "099-7",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 43,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 44,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-1",
+    "Size": 45,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-10",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-2",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-6",
+    "Size": 42,
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 34,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 35,
+    "Pair": 30
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 36,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 37,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 38,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 39,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 40,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": 41,
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "098-7",
+    "Size": "42",
+    "Pair": 15
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 42,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 43,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 44,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 45,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 46,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 47,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102",
+    "Size": 48,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 41,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 42,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 43,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 44,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 45,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 46,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 47,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-3",
+    "Size": 48,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 41,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 42,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 43,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 44,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 45,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 46,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 47,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "102-4",
+    "Size": 48,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 41,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 42,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 43,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 44,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 45,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 46,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 47,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103",
+    "Size": 48,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 41,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 42,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 43,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 44,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 45,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 46,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 47,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-3",
+    "Size": 48,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 41,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 42,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 43,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 44,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 45,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 46,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 47,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "103-4",
+    "Size": 48,
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "401-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "402-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "403",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "411-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1 ",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 41,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "412-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-1",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-1",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-2",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-2",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-2",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-2",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-2",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-2",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-3",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-3",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-3",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-3",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-3",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-3",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-4",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-4",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-4",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-4",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-4",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-4",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-5",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-5",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-5",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-5",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-5",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "60-5",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-1",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-1",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-2",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-2",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-2",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-2",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-2",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-2",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-3",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-3",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-3",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-3",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-3",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-3",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-4",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-4",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-4",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-4",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-4",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-4",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-5",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-5",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-5",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-5",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-5",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "61-5",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-1",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-1",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-2",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-2",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-2",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-2",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-2",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-2",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-3",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-3",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-3",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-3",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-3",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-3",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-4",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-4",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-4",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-4",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-4",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-4",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-5",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-5",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-5",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-5",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-5",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "62-5",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-1",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-1",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-1",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-1",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-1",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-1",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-2",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-2",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-2",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-2",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-2",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-2",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-3",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-3",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-3",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-3",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-3",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-3",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-4",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-4",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-4",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-4",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-4",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-4",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-5",
+    "Size": "40-41",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-5",
+    "Size": 42,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-5",
+    "Size": 43,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-5",
+    "Size": 44,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-5",
+    "Size": 45,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "63-5",
+    "Size": "46-47",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-1",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-1",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-2",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-2",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-2",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-2",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-2",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-2",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-3 ",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-3",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-3",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-3",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-3",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-3",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-5 ",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-5",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-5",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-5",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-5",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-5",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-6",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-6",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-6",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-6",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-6",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-6",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-7",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-7",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-7",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-7",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-7",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-7",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-8",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-8",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-8",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-8",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-8",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "81-8",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-1",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-1",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-2",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-2",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-2",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-2",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-2",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-2",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-3",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-3",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-3",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-3",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-3",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-3",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-5",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-5",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-5",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-5",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-5",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-5",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-6",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-6",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-6",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-6",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-6",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-6",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-7",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-7",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-7",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-7",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-7",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-7",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-8",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-8",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-8",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-8",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-8",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "82-8",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-1",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-1",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-1",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-1",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-1",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-1",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-2",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-2",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-2",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-2",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-2",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-2",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-3",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-3",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-3",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-3",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-3",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-3",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-5",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-5",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-5",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-5",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-5",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-5",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-6",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-6",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-6",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-6",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-6",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-6",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-7",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-7",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-7",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-7",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-7",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-7",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-8",
+    "Size": "35-36",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-8",
+    "Size": 37,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-8",
+    "Size": 38,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-8",
+    "Size": 39,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-8",
+    "Size": 40,
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "83-8",
+    "Size": "41-42",
+    "Pair": 10
+  },
+  {
+    "Vendorcode": "90",
+    "Size": "41-42",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90",
+    "Size": 43,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90",
+    "Size": 44,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90",
+    "Size": 45,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90",
+    "Size": 46,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90",
+    "Size": "47-48",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90-4",
+    "Size": "41-42",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90-4",
+    "Size": 43,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90-4",
+    "Size": 44,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90-4",
+    "Size": 45,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90-4",
+    "Size": 46,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "90-4",
+    "Size": "47-48",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91",
+    "Size": "41-42",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91",
+    "Size": 43,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91",
+    "Size": 44,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91",
+    "Size": 45,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91",
+    "Size": 46,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91",
+    "Size": "47-48",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91-4",
+    "Size": "41-42",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91-4",
+    "Size": 43,
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91-4",
+    "Size": "44",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91-4",
+    "Size": "45",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91-4",
+    "Size": "46",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "91-4",
+    "Size": "47-48",
+    "Pair": 1
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "41",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "42",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "43",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "44",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "45",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "46",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "47",
+    "Pair": 5
+  },
+  {
+    "Vendorcode": "100-black",
+    "Size": "48",
+    "Pair": 5
+  }
+]
