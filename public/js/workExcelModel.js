@@ -333,7 +333,7 @@ async function renderObjects(cards) {
                 class="box-input sizeBox Item${size.techSize}" 
                 placeholder="${size.techSize}" 
                 value="20" 
-                style="text-align: center; border-radius: 10px; width: 20px"
+                style="text-align: center;"
                 data-vendor-code="${card.vendorCode.trim()}"
                 data-tech-size="${size.techSize}"
             />
@@ -555,8 +555,8 @@ async function addDataJsonPair(article, size, pair) {
         if (!response.ok) {
             throw new Error('Ошибка сервера');
         }
-
-        alert("Данные успешно сохранены");
+        const notification = createNotification('Обновление', 'info');
+        updateNotification(notification, 'Файл успешно обработан и данные добавлены!', 'success');
     } catch (error) {
         console.error('Ошибка: ', error);
         alert("Ошибка обновления данных");
