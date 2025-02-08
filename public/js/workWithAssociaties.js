@@ -105,7 +105,6 @@ articleForm.addEventListener('submit', async (event) => {
     updateArticleList(); // Обновление списка без перезагрузки
 });
 
-
 // Добавление ассоциации
 async function addAssociation(simple, full) {
     try {
@@ -145,7 +144,6 @@ async function editAssociation(originalSimple, newSimple, newFull) {
         showNotification('Ошибка изменения ассоциации', 'error');
     }
 }
-
 
 // Удаление ассоциации
 async function deleteAssociation(simple) {
