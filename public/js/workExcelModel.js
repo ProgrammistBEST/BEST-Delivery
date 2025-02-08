@@ -327,7 +327,7 @@ async function renderObjects(cards) {
                 <input type="number" number="" class="input-size Item${size.techSize}" placeholder="${size.techSize}" value="${size.count}" style="text-align: center; border-radius: 10px" />
                 <input type="number" id="${card.vendorCode.trim()}" number="" tabindex="-1" class="box-input sizeBox Item${size.techSize}" placeholder="${size.techSize}" value="20" style="text-align: center; border-radius: 10px, width: 20px"/>
             `;
-
+            console.log(card.vendorCode)
             row.appendChild(sizeDiv);
         });
 
