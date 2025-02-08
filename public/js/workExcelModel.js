@@ -323,11 +323,33 @@ async function renderObjects(cards) {
             sizeDiv.className = 'col-1 col-size';
 
             sizeDiv.innerHTML = `
-                <span>${size.techSize}</span>
-                <input type="number" number="" class="input-size Item${size.techSize}" placeholder="${size.techSize}" value="${size.count}" style="text-align: center; border-radius: 10px" />
-                <input type="number" id="${card.vendorCode.trim()}" number="" tabindex="-1" class="box-input sizeBox Item${size.techSize}" placeholder="${size.techSize}" value="20" style="text-align: center; border-radius: 10px, width: 20px"/>
-            `;
-
+            <span>${size.techSize}</span>
+            <input type="number" number="" class="input-size Item${size.techSize}" placeholder="${size.techSize}" value="${size.count}" style="text-align: center; border-radius: 10px" />
+            <input 
+                type="number" 
+                id="${card.vendorCode.trim()}" 
+                number="" 
+                tabindex="-1" 
+                class="box-input sizeBox Item${size.techSize}" 
+                placeholder="${size.techSize}" 
+                value="20" 
+                style="text-align: center; border-radius: 10px; width: 20px"
+                data-vendor-code="${card.vendorCode.trim()}"
+                data-tech-size="${size.techSize}"
+            />
+        `;
+        
+        sizeDiv.addEventListener("change", function (e) {
+            if (e.target && e.target.classList.contains('box-input')) {
+                const vendorCode = e.target.dataset.vendorCode; // Получаем vendorCode из атрибута data-vendor-code
+                const techSize = e.target.dataset.techSize;     // Получаем techSize из атрибута data-tech-size
+                console.log("Изменения в input:", e.target.value);
+                console.log("Vendor Code:", vendorCode);
+                console.log("Tech Size:", techSize);
+                addDataJsonPair(vendorCode, techSize, e.target.value); // Вызываем функцию обновления данных
+            }
+        });
+            
             row.appendChild(sizeDiv);
         });
 
@@ -513,4 +535,30 @@ function updateNotification(notification, message, type) {
     notification.textContent = message;
     notification.className = `alert alert-${type}`;
     setTimeout(() => notification.remove(), 3000);
+}
+
+async function addDataJsonPair(article, size, pair) {
+    try {
+        const data = {
+            Vendorcode: article,
+            Size: size,
+            Pair: pair,
+        };
+
+        // Отправляем один объект на сервер
+        const response = await fetch('/api/update', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data),
+        });
+
+        if (!response.ok) {
+            throw new Error('Ошибка сервера');
+        }
+
+        alert("Данные успешно сохранены");
+    } catch (error) {
+        console.error('Ошибка: ', error);
+        alert("Ошибка обновления данных");
+    }
 }
