@@ -37,7 +37,7 @@
   },
   {
     "simple": "36",
-    "full": "36 черный"
+    "full": "36-black"
   },
   {
     "simple": "37",
@@ -70,5 +70,9 @@
   {
     "simple": "411",
     "full": "411411-black"
+  },
+  {
+    "simple": "710",
+    "full": "710710-black"
   }
 ]

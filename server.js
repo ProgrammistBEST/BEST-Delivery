@@ -13,20 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const mysql = require("mysql2/promise");
 const readline = require("readline");
 
-const apiWb = {
-    'bestShoes': {
-        'standart': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6IjM0MWNlYmU2LWQ1ZTItNDE1My1iNDQ4LWE5YTQ0MjhiZWQxOCJ9.9p43NF2EUqdCbgGnrdBMZOUJ34xtMGEvp5aBs1iBLA8',
-        'stat': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6Ijk5NjcwZmIxLWVhMmEtNGY0MC05MDc4LTdkYmNmYWJmZTlkNyJ9.A0bYMwNDXTAN8skqi_ReQeynCjvy2V3JnV0wf5NkfRc',
-        'adv': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6ImQ3ZTM2NTBlLTY1OTYtNDJkNC1hNTI0LTRjM2MyYTMyMGM1YSJ9.jgmgviMbWr6Y4cTg7F6tC1bHzZL0Sq3HgVXTyLRUzH8'
-    },
-    'armbest': {
-        'standart': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6IjYwNzllYTgyLWJkNTgtNGIyMy1hNjgxLTk3MmZiZGFhNTQ2NSJ9.5t3lG5kRUscNxawRxvuoJ4NXteehu5iZX6JpeHBjbg0',
-        'stat': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6IjA2NWUwZjQzLTdkZGEtNGIzNC1iY2Q3LWU4OTI2ODY3MTAwNCJ9.ULlC_z7r5tYBCKke-a-k_OUZUW4uv556emsNFSQ28eU',
-        'adv': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6IjM1YjUzZWEwLTc4Y2ItNDAxNi1hNTU5LWIzMzlmNDEzYTYxMCJ9.Q4RK1maNeEvTdNWWd1hR5LMuH4J4MiWUJQ9iJTspxxg'
-    }
-}
-
-
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/armbest', (req, res) => {
@@ -39,6 +25,15 @@ app.get('/bestshoes', (req, res) => {
 
 app.get('/best26', (req, res) => {
     res.sendFile(`${__dirname}/public/best26.html`);
+});
+
+app.get('/arm2', (req, res) => {
+    res.sendFile(`${__dirname}/public/arm2.html`);
+});
+
+app.post('/getModelArm2', (req, res) => {
+    let obj = JSON.parse(fs.readFileSync('./public/jsonModel/arm2-model.json', 'utf8'));
+    res.send(JSON.stringify(obj, null, 4));
 });
 
 app.post('/getModelArmbest', (req, res) => {
@@ -105,10 +100,10 @@ app.post('/createOrderArmbest', (req, res) => {
     wsTwo.cell(1, 2).string('количество');
     orderExcel.forEach(element => {
         i++;
-        ws.cell(i, 1).number(Number(element.barcode));
+        ws.cell(i, 1).string(String(element.barcode));
         ws.cell(i, 2).number(Number(element.value));
         ws.cell(i, 3).string(`${element.art}(${element.size})`);
-        wsTwo.cell(i, 1).number(Number(element.barcode));
+        wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
     wb.write(`deliveryArmbest/заказ_armbest.xlsx`);
@@ -140,23 +135,23 @@ app.post('/createOrderArmbest', (req, res) => {
             for (let index = 0; index < delimiter; index++) {
                 if ((Math.floor(countBox)) > 0) {
                     let fullcountbox = Number(element.value) / delimiter
-                    wsBinding.cell(r, 1).number(Number(element.barcode));
+                    wsBinding.cell(r, 1).string(String(element.barcode));
 
                     wsBinding.cell(r, 2).number(fullcountbox);
                     wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-                    wsUpload.cell(r, 1).number(Number(element.barcode));
+                    wsUpload.cell(r, 1).string(String(element.barcode));
                     wsUpload.cell(r, 2).number(fullcountbox);
 
                 }
                 else {
                     let fullcountbox = Number(element.value) / delimiter
-                    wsBinding.cell(r, 1).number(Number(element.barcode));
+                    wsBinding.cell(r, 1).string(String(element.barcode));
 
                     wsBinding.cell(r, 2).number(Number(delimiter % 1) * element.INPUTBOX);
                     wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-                    wsUpload.cell(r, 1).number(Number(element.barcode));
+                    wsUpload.cell(r, 1).string(String(element.barcode));
                     wsUpload.cell(r, 2).number(fullcountbox);
 
                 }
@@ -165,11 +160,11 @@ app.post('/createOrderArmbest', (req, res) => {
 
             }
         } else {
-            wsBinding.cell(r, 1).number(Number(element.barcode));
+            wsBinding.cell(r, 1).string(String(element.barcode));
             wsBinding.cell(r, 2).number(Number(element.value));
             wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-            wsUpload.cell(r, 1).number(Number(element.barcode));
+            wsUpload.cell(r, 1).string(String(element.barcode));
             wsUpload.cell(r, 2).number(Number(element.value));
 
             r++;
@@ -256,10 +251,10 @@ app.post('/createOrderBest', (req, res) => {
     wsTwo.cell(1, 2).string('количество');
     orderExcel.forEach(element => {
         i++;
-        ws.cell(i, 1).number(Number(element.barcode));
+        ws.cell(i, 1).string(String(element.barcode));
         ws.cell(i, 2).number(Number(element.value));
         ws.cell(i, 3).string(`${element.art}(${element.size})`);
-        wsTwo.cell(i, 1).number(Number(element.barcode));
+        wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
     wb.write(`deliveryBestshoes/заказ_best.xlsx`);
@@ -291,23 +286,23 @@ app.post('/createOrderBest', (req, res) => {
             for (let index = 0; index < delimiter; index++) {
                 if ((Math.floor(countBox)) > 0) {
                     let fullcountbox = Number(element.value) / delimiter
-                    wsBinding.cell(r, 1).number(Number(element.barcode));
+                    wsBinding.cell(r, 1).string(String(element.barcode));
 
                     wsBinding.cell(r, 2).number(fullcountbox);
                     wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-                    wsUpload.cell(r, 1).number(Number(element.barcode));
+                    wsUpload.cell(r, 1).string(String(element.barcode));
                     wsUpload.cell(r, 2).number(fullcountbox);
 
                 }
                 else {
                     let fullcountbox = Number(element.value) / delimiter
-                    wsBinding.cell(r, 1).number(Number(element.barcode));
+                    wsBinding.cell(r, 1).string(String(element.barcode));
 
                     wsBinding.cell(r, 2).number(Number(delimiter % 1) * element.INPUTBOX);
                     wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-                    wsUpload.cell(r, 1).number(Number(element.barcode));
+                    wsUpload.cell(r, 1).string(String(element.barcode));
                     wsUpload.cell(r, 2).number(fullcountbox);
 
                 }
@@ -316,11 +311,11 @@ app.post('/createOrderBest', (req, res) => {
 
             }
         } else {
-            wsBinding.cell(r, 1).number(Number(element.barcode));
+            wsBinding.cell(r, 1).string(String(element.barcode));
             wsBinding.cell(r, 2).number(Number(element.value));
             wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-            wsUpload.cell(r, 1).number(Number(element.barcode));
+            wsUpload.cell(r, 1).string(String(element.barcode));
             wsUpload.cell(r, 2).number(Number(element.value));
 
             r++;
@@ -357,11 +352,11 @@ app.post('/createOrderBest', (req, res) => {
     }, 1000);
 });
 
-app.post('/createOrderBest26', (req, res) => {
+app.post('/createOrderArm2', (req, res) => {
     let ip = req.headers['x-forwarded-for'];
     let orderExcel = [];
     let body = req.body;
-    let obj = JSON.parse(fs.readFileSync('./public/jsonModel/best26-model.json', 'utf8'));
+    let obj = JSON.parse(fs.readFileSync('./public/jsonModel/arm2-model.json', 'utf8'));
     let cards = obj.cards;
     cards.forEach(card => {
         body.forEach(elem => {
@@ -373,11 +368,10 @@ app.post('/createOrderBest26', (req, res) => {
                                 barcode: size.skus[0],
                                 value: sizeElem.value,
                                 count: elem.boxCount,
-                                art: elem.art,
+                                art: elem.art + '-у',
                                 size: size.techSize,
                                 INPUTBOX: sizeElem.boxCount,
                                 trying: false
-
                             });
                         }
                     });
@@ -407,10 +401,161 @@ app.post('/createOrderBest26', (req, res) => {
     wsTwo.cell(1, 2).string('количество');
     orderExcel.forEach(element => {
         i++;
-        ws.cell(i, 1).number(Number(element.barcode));
+        ws.cell(i, 1).string(String(element.barcode));
         ws.cell(i, 2).number(Number(element.value));
         ws.cell(i, 3).string(`${element.art}(${element.size})`);
-        wsTwo.cell(i, 1).number(Number(element.barcode));
+        wsTwo.cell(i, 1).string(String(element.barcode));
+        wsTwo.cell(i, 2).number(Number(element.value));
+    });
+    wb.write(`deliveryArm2/заказ_arm2.xlsx`);
+    wbTwo.write(`deliveryArm2/заказ_загружаю_arm2.xlsx`);
+
+    let wbBinding = new xl.Workbook();
+    let wsBinding = wbBinding.addWorksheet('Sheet 1');
+
+    let wbUploadBinding = new xl.Workbook();
+    let wsUpload = wbUploadBinding.addWorksheet('Sheet 1');
+
+    wsBinding.cell(1, 1).string('баркод товара');
+    wsUpload.cell(1, 1).string('баркод товара');
+
+    wsBinding.cell(1, 2).string('кол-во товаров');
+    wsUpload.cell(1, 2).string('кол-во товаров');
+
+    wsBinding.cell(1, 3).string('шк короба');
+    wsUpload.cell(1, 3).string('шк короба');
+
+    wsBinding.cell(1, 4).string('срок годности');
+
+    let r = 2;
+    orderExcel.forEach(element => {
+        let countBox = Number(element.value) / Number(element.INPUTBOX)
+
+        if (countBox > 0) {
+            let delimiter = element.value / element.INPUTBOX;
+            for (let index = 0; index < delimiter; index++) {
+                if ((Math.floor(countBox)) > 0) {
+                    let fullcountbox = Number(element.value) / delimiter
+                    wsBinding.cell(r, 1).string(String(element.barcode));
+
+                    wsBinding.cell(r, 2).number(fullcountbox);
+                    wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
+
+                    wsUpload.cell(r, 1).string(String(element.barcode));
+                    wsUpload.cell(r, 2).number(fullcountbox);
+
+                }
+                else {
+                    let fullcountbox = Number(element.value) / delimiter
+                    wsBinding.cell(r, 1).string(String(element.barcode));
+
+                    wsBinding.cell(r, 2).number(Number(delimiter % 1) * element.INPUTBOX);
+                    wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
+
+                    wsUpload.cell(r, 1).string(String(element.barcode));
+                    wsUpload.cell(r, 2).number(fullcountbox);
+
+                }
+                r++;
+                countBox -= 1
+
+            }
+        } else {
+            wsBinding.cell(r, 1).string(String(element.barcode));
+            wsBinding.cell(r, 2).number(Number(element.value));
+            wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
+
+            wsUpload.cell(r, 1).string(String(element.barcode));
+            wsUpload.cell(r, 2).number(Number(element.value));
+
+            r++;
+        }
+    });
+
+    wbBinding.write('deliveryArm2/привязка_arm2.xlsx');
+    wbUploadBinding.write('deliveryArm2/привязка_загружаю_arm2.xlsx');
+    setTimeout(() => {
+        let to_zip = fs.readdirSync(__dirname + '/' + 'deliveryArm2');
+        let zp = new admz();
+        for (var k = 0; k < to_zip.length; k++) {
+            zp.addLocalFile(__dirname + '/' + 'deliveryArm2' + '/' + to_zip[k]);
+        }
+        const file_after_download = 'downloaded_file.zip';
+        const data = zp.toBuffer();
+
+        res.set('Content-Type', 'application/octet-stream');
+        res.set('Content-Disposition', `attachment; filename=${file_after_download}`);
+        res.set('Content-Length', data.length);
+        res.send(data);
+        setTimeout(() => {
+            const directory = "deliveryArm2";
+            fs.readdir(directory, (err, files) => {
+                if (err) throw err;
+
+                for (const file of files) {
+                    fs.unlink(path.join(directory, file), (err) => {
+                        if (err) throw err;
+                    });
+                }
+            });
+        }, 1000);
+    }, 1000);
+});
+
+
+app.post('/createOrderBest26', (req, res) => {
+    let ip = req.headers['x-forwarded-for'];
+    let orderExcel = [];
+    let body = req.body;
+    let obj = JSON.parse(fs.readFileSync('./public/jsonModel/best26-model.json', 'utf8'));
+    let cards = obj.cards;
+    cards.forEach(card => {
+        body.forEach(elem => {
+            if (card.vendorCode == elem.art) {
+                card.sizes.forEach(size => {
+                    elem.sizes.forEach(sizeElem => {
+                        if (size.techSize == sizeElem.size) {
+                            orderExcel.push({
+                                barcode: size.skus[0],
+                                value: sizeElem.value,
+                                count: elem.boxCount,
+                                art: elem.art,
+                                size: size.techSize,
+                                INPUTBOX: sizeElem.boxCount,
+                                trying: false
+                            });
+                        }
+                    });
+                });
+            }
+        });
+    });
+
+    // Сортировка orderExcel по артикулу и размеру (четвертый столбец)
+    orderExcel.sort((a, b) => {
+        if (a.art < b.art) return -1;
+        if (a.art > b.art) return 1;
+        if (a.size < b.size) return -1;
+        if (a.size > b.size) return 1;
+        return 0;
+    });
+
+    let wb = new xl.Workbook();
+    let wbTwo = new xl.Workbook();
+    let wsTwo = wbTwo.addWorksheet('Sheet 1')
+    let ws = wb.addWorksheet('Sheet 1');
+
+    let i = 1;
+    ws.cell(1, 1).string('баркод');
+    ws.cell(1, 2).string('количество');
+    wsTwo.cell(1, 1).string('баркод');
+    wsTwo.cell(1, 2).string('количество');
+    orderExcel.forEach(element => {
+        i++;
+        ws.cell(i, 1).string(String(element.barcode));
+        ws.cell(i, 2).number(Number(element.value));
+        ws.cell(i, 3).string(`${element.art}(${element.size})`);
+        wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
     wb.write(`deliveryBest26/заказ_best26.xlsx`);
@@ -442,23 +587,23 @@ app.post('/createOrderBest26', (req, res) => {
             for (let index = 0; index < delimiter; index++) {
                 if ((Math.floor(countBox)) > 0) {
                     let fullcountbox = Number(element.value) / delimiter
-                    wsBinding.cell(r, 1).number(Number(element.barcode));
+                    wsBinding.cell(r, 1).string(String(element.barcode));
 
                     wsBinding.cell(r, 2).number(fullcountbox);
                     wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-                    wsUpload.cell(r, 1).number(Number(element.barcode));
+                    wsUpload.cell(r, 1).string(String(element.barcode));
                     wsUpload.cell(r, 2).number(fullcountbox);
 
                 }
                 else {
                     let fullcountbox = Number(element.value) / delimiter
-                    wsBinding.cell(r, 1).number(Number(element.barcode));
+                    wsBinding.cell(r, 1).string(String(element.barcode));
 
                     wsBinding.cell(r, 2).number(Number(delimiter % 1) * element.INPUTBOX);
                     wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-                    wsUpload.cell(r, 1).number(Number(element.barcode));
+                    wsUpload.cell(r, 1).string(String(element.barcode));
                     wsUpload.cell(r, 2).number(fullcountbox);
 
                 }
@@ -467,11 +612,11 @@ app.post('/createOrderBest26', (req, res) => {
 
             }
         } else {
-            wsBinding.cell(r, 1).number(Number(element.barcode));
+            wsBinding.cell(r, 1).string(String(element.barcode));
             wsBinding.cell(r, 2).number(Number(element.value));
             wsBinding.cell(r, 4).string(`${element.art}(${element.size})`);
 
-            wsUpload.cell(r, 1).number(Number(element.barcode));
+            wsUpload.cell(r, 1).string(String(element.barcode));
             wsUpload.cell(r, 2).number(Number(element.value));
 
             r++;
@@ -523,6 +668,7 @@ const companyIDs = {
     Armbest: 3,
     Bestshoes: 6,
     Best26: 9,
+    Arm2: 17,
 };
 
 // URL API для получения моделей
@@ -833,5 +979,5 @@ app.put('/api/associations/:simple', (req, res) => {
 
 const PORT = 7000;
 app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Application listening on port ${PORT}!`);
+    console.log(`Application listening on port ${PORT}! And availible http://localhost:7000`);
 })

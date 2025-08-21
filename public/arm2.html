@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARM2 WB</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="./libraries/bootstrap_v5/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="main" class="container-fluid"></div>
+  <script src="./js/MergeExcelfiles.js"></script>
+  <script src="./js/arm2.js"></script>
+  <div id="main-content" class="container-fluid">
+  </div>
+  <div id="container-hidden" class="container-general">
+    <div class="container-settings">
+      <form id="addModelsForm" action="/select-company" method="POST">
+        <input type="hidden" id="company" name="company" value="Arm2">
+        <button id="loadModelsButton" class="btn btn-success">Добавить модели</button>
+        <div id="statusMessage"></div>
+      </form>   
+        <!-- Кнопка для открытия формы -->
+        <button id="open-form-button" class="btn btn-success ">Управлять ассоциациями</button>
+      <button class="btn btn-success" id="openModalButton">Настроить модели</button>
+    </div>
+    <div id="drop-zone" class="drop-zone">
+      Перетащите файл сюда или нажмите, чтобы выбрать.
+      <input class="drop-zone" type="file" id="file-input" style="display: none;" />
+    </div>
+    <button class="btn btn-success" id="downloadDelivery">Скачать Поставку Из Excel</button> 
+  </div>
+
+    <!-- Всплывающая форма -->
+    <div id="form-container" class="form-associates hidden">
+      <div class="form-wrapper">
+          <button id="close-form-button" class="close-button">×</button>
+          <h2>Управление ассоциациями</h2>
+
+          <!-- Форма для добавления/изменения -->
+          <form id="article-form">
+              <label for="simpleArticle">Простой артикул:</label>
+              <input class="article-from-input" type="text" id="simpleArticle" name="simpleArticle" required>
+              
+              <label for="fullArticle">Полный артикул:</label>
+              <input class="article-from-input" type="text" id="fullArticle" name="fullArticle" required>
+              
+              <button type="submit" class="form-save-button">Сохранить</button>
+          </form>
+
+          <!-- Список ассоциаций -->
+          <h3>Список ассоциаций</h3>
+          <div class="scrollable-list">
+              <ul id="article-list"></ul>
+          </div>
+      </div>
+  </div>
+  <!-- Секция уведомлений -->
+  <div id="notification-container"></div>
+
+  <!-- Модальное окно -->
+  <div class="modal" id="modelModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Настроить пары</h5>
+          <button type="button" class="close" id="closeModalButton" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="updateForm">
+            <div class="form-group">
+              <label for="model">Модель:</label>
+              <select class="form-control select-setting" id="model" name="model"></select>
+            </div>
+            <div class="form-group">
+              <label for="sizes">Размеры (через запятую):</label>
+              <input type="text" class="form-control" id="sizes" name="sizes" placeholder="e.g., 42, 43-44, 45">
+            </div>
+            <div class="form-group">
+              <label for="pair">Пары:</label>
+              <input type="number" class="form-control" id="pair" name="pair" min="1" required>
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Добавить пары</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Подключение библиотек -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/workExcelModel.js"></script>
+  <script src="./js/workWithAssociaties.js"></script>
+  <!-- <script src="./js/test.js"></script> -->
+</body>
+
+</html>

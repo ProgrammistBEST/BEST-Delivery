@@ -105,7 +105,7 @@ document.getElementById('downloadDelivery').addEventListener('click', async () =
 
 // Загрузка и сравнение данных с Article.json
 async function fetchAndCompareJson(cards) {
-    console.log(cards + ' Картачки')
+    console.log(cards + ' Карточки на кочке и на точке')
     const jsonUrl = './Article.json';
     let inputsAll = document.querySelectorAll('.sizeBox');
     const inputsArray = Array.from(inputsAll);
@@ -149,10 +149,11 @@ function parseExcelDataToObjects(data) {
     const cards = [];
     let currentSizes = []; // Текущие размеры для использования, если в строке пустое значение в столбце A
     const defaultSizes = generateSizes(34, 45); // Стандартный размерный ряд (34-45)
-
+    const companyName = document.getElementById('company').value;
+    
     for (let i = 4; i < data.length; i++) { // Начинаем с 4 строки
         const row = data[i];
-        const vendorCode = row[0]; // Первый столбец A - артикул
+        const vendorCode = row[0] ? (companyName === 'arm2' ? row[0] + "-у" : row[0]) : null; // Первый столбец A - артикул
         const sizeRange = row.slice(3, 15); // Столбцы D-O
 
         if (!vendorCode) {
@@ -172,7 +173,7 @@ function parseExcelDataToObjects(data) {
 
             if (sizes.length > 0) {
                 cards.push({
-                    vendorCode: vendorCode.trim(),
+                    vendorCode: String(vendorCode).trim(),
                     sizes,
                 });
             }
@@ -301,7 +302,7 @@ function displayMissingModels(message) {
 async function renderObjects(cards) {
     const container = document.querySelector('.checked-model') || createCheckedModelContainer();
     const updatedCards = await reconciliationAssociations(cards);
-
+    console.log(cards)
     updatedCards.forEach(card => {
         // Остальная логика создания элементов
         const row = document.createElement('div');
@@ -461,10 +462,16 @@ function addCreateButton() {
                });
             }
         });
+
+        // sendObj.forEach(item => {
+        //     item.art += '-у'
+        // })
+
         const companyName = {
             Armbest: '/createOrderArmbest',
             Bestshoes: "/createOrderBest",
             Best26: "/createOrderBest26",
+            Arm2: "/createOrderArm2",
         };
         let companyElement = document.getElementById('company'); // Получаем элемент
         let companyValue = companyElement.value; // Получаем значение атрибута value
@@ -476,7 +483,8 @@ function addCreateButton() {
                 <h1 class="title-wait">Ждите...</h1>
                 <img src="./img/loading-wtf.gif" />
             </div>`;
-            console.log(company)
+            console.log(company, sendObj)
+            
             fetch(companyName[companyValue],
             {
                 method : 'POST',
@@ -487,6 +495,7 @@ function addCreateButton() {
                 body: JSON.stringify(sendObj)
             }).then(res => res.blob())
                 .then(data => {
+                    console.log(data);
                     var a = document.createElement("a");
                     a.href = window.URL.createObjectURL(data);
                     a.download = `${companyValue} файлы поставки.zip`;

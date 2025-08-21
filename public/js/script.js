@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Инициализация Select2
-    $('.form-select').select2();
+    // $('.form-select').select2();
 
     // Открытие и закрытие модального окна
     const modal = document.getElementById('modelModal');
