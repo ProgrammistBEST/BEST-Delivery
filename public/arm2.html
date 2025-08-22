@@ -93,11 +93,47 @@
       </div>
     </div>
   </div>
-
+  <!-- Модальное окно для ШК OZON -->
+  <div class="modal fade" id="barcodeOZONModal" tabindex="-1" role="dialog" aria-labelledby="barcodeOZONModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="barcodeOZONModalLabel">Генерация ШК OZON</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="barcodeOZONForm">
+            <div class="form-group">
+              <label for="cityCode">Город (6 символов, и меньше)</label>
+              <input type="text" class="form-control" id="cityCode" maxlength="6" required>
+            </div>
+            <div class="form-group">
+              <label for="supplyNumber">Номер поставки</label>
+              <input type="text" class="form-control" id="supplyNumber" required>
+            </div>
+            <div class="form-group">
+              <label for="excelFile">Область (загрузите Excel файл)</label>
+              <div id="drop-zone-ozon" class="drop-zone-ozon">
+                Перетащите файл сюда или нажмите, чтобы выбрать.
+                <input class="drop-zone-ozon" type="file" id="file-input" style="display: none;" />
+              </div>
+              <div id="fileInfo" class="file-info" style="margin-top: 10px; display: none;">
+                <span id="fileName"></span>
+                <button type="button" id="removeFile" class="btn btn-sm btn-danger"
+                  style="margin-left: 10px;">Удалить</button>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success">Получить ШК</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Подключение библиотек -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="./libraries/bootstrap_v5/js/bootstrap.bundle.min.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/workExcelModel.js"></script>
   <script src="./js/workWithAssociaties.js"></script>
