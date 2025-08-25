@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 # Переносим константы, связанные с данными
 HEADERS = {
     "Armbest": {"Client-Id": "507132", "Api-Key": "token"},
-    "BEST 26": {"Client-Id": "2018536", "Api-Key": "token"}
+    "Best26": {"Client-Id": "2018536", "Api-Key": "token"}
 }
 
 NUM_TO_COL = {

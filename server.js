@@ -106,8 +106,17 @@ app.post('/createOrderArmbest', (req, res) => {
         wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
-    wb.write(`deliveryArmbest/заказ_armbest.xlsx`);
-    wbTwo.write(`deliveryArmbest/заказ_загружаю_armbest.xlsx`);
+
+    const folderNameDeliveryArmbest = 'deliveryArmbest';
+
+    // Проверяем, существует ли папка, и если нет — создаём её
+    if (!fs.existsSync(folderNameDeliveryArmbest)) {
+    fs.mkdirSync(folderNameDeliveryArmbest, { recursive: true });
+    }
+
+    // Теперь записываем файлы
+    wb.write(path.join(folderNameDeliveryArmbest, 'заказ_armbest.xlsx'));
+    wbTwo.write(path.join(folderNameDeliveryArmbest, 'заказ_загружаю_armbest.xlsx'));
 
     let wbBinding = new xl.Workbook();
     let wsBinding = wbBinding.addWorksheet('Sheet 1');
@@ -170,7 +179,8 @@ app.post('/createOrderArmbest', (req, res) => {
             r++;
         }
     });
-
+    
+    // Теперь записываем файлы
     wbBinding.write('deliveryArmbest/привязка_armbest.xlsx');
     wbUploadBinding.write('deliveryArmbest/привязка_загружаю_armbest.xlsx');
     setTimeout(() => {
@@ -257,8 +267,16 @@ app.post('/createOrderBest', (req, res) => {
         wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
-    wb.write(`deliveryBestshoes/заказ_best.xlsx`);
-    wbTwo.write(`deliveryBestshoes/заказ_загружаю_best.xlsx`);
+    const folderNameDeliveryBestshoes = 'deliveryBestshoes';
+
+    // Проверяем, существует ли папка, и если нет — создаём её
+    if (!fs.existsSync(folderNameDeliveryBestshoes)) {
+    fs.mkdirSync(folderNameDeliveryBestshoes, { recursive: true });
+    }
+
+    // Теперь записываем файлы
+    wb.write(path.join(folderNameDeliveryBestshoes, 'заказ_bestshoes.xlsx'));
+    wbTwo.write(path.join(folderNameDeliveryBestshoes, 'заказ_загружаю_bestshoes.xlsx'));
 
     let wbBinding = new xl.Workbook();
     let wsBinding = wbBinding.addWorksheet('Sheet 1');
@@ -322,6 +340,7 @@ app.post('/createOrderBest', (req, res) => {
         }
     });
 
+    // Теперь записываем файлы
     wbBinding.write('deliveryBestshoes/привязка_best.xlsx');
     wbUploadBinding.write('deliveryBestshoes/привязка_загружаю_best.xlsx');
     setTimeout(() => {
@@ -407,8 +426,16 @@ app.post('/createOrderArm2', (req, res) => {
         wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
-    wb.write(`deliveryArm2/заказ_arm2.xlsx`);
-    wbTwo.write(`deliveryArm2/заказ_загружаю_arm2.xlsx`);
+    const folderNameDeliveryArm2 = 'deliveryArm2';
+
+    // Проверяем, существует ли папка, и если нет — создаём её
+    if (!fs.existsSync(folderNameDeliveryArm2)) {
+    fs.mkdirSync(folderNameDeliveryArm2, { recursive: true });
+    }
+
+    // Теперь записываем файлы
+    wb.write(path.join(folderNameDeliveryArm2, 'заказ_arm2.xlsx'));
+    wbTwo.write(path.join(folderNameDeliveryArm2, 'заказ_загружаю_arm2.xlsx'));
 
     let wbBinding = new xl.Workbook();
     let wsBinding = wbBinding.addWorksheet('Sheet 1');
@@ -558,8 +585,16 @@ app.post('/createOrderBest26', (req, res) => {
         wsTwo.cell(i, 1).string(String(element.barcode));
         wsTwo.cell(i, 2).number(Number(element.value));
     });
-    wb.write(`deliveryBest26/заказ_best26.xlsx`);
-    wbTwo.write(`deliveryBest26/заказ_загружаю_best26.xlsx`);
+    const folderNameDeliveryBest26 = 'deliveryBest26';
+
+    // Проверяем, существует ли папка, и если нет — создаём её
+    if (!fs.existsSync(folderNameDeliveryBest26)) {
+    fs.mkdirSync(folderNameDeliveryBest26, { recursive: true });
+    }
+
+    // Теперь записываем файлы
+    wb.write(path.join(folderNameDeliveryBest26, 'заказ_best26.xlsx'));
+    wbTwo.write(path.join(folderNameDeliveryBest26, 'заказ_загружаю_best26.xlsx'));
 
     let wbBinding = new xl.Workbook();
     let wsBinding = wbBinding.addWorksheet('Sheet 1');
@@ -623,6 +658,7 @@ app.post('/createOrderBest26', (req, res) => {
         }
     });
 
+    // Теперь записываем файлы
     wbBinding.write('deliveryBest26/привязка_best26.xlsx');
     wbUploadBinding.write('deliveryBest26/привязка_загружаю_best26.xlsx');
     setTimeout(() => {
