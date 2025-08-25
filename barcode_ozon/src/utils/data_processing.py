@@ -180,7 +180,7 @@ def get_pairs_per_box(pairs_lookup, article, size, associations_lookup=None):
     
     raise Exception(error_msg)
 
-def excel_to_json_from_stream(file_stream, json_file_path):
+def excel_to_json_from_stream(file_stream, json_file_path, association_json_path):
     """
     Основная функция обработки Excel файла с использованием данных из JSON
     
@@ -241,7 +241,7 @@ def excel_to_json_from_stream(file_stream, json_file_path):
                     
                     # Получаем количество пар в коробку из JSON данных
                     try:
-                        pairs_per_box = get_pairs_per_box(pairs_lookup, article, sizes[col], load_associations_data('D:/Repo-Projects/BEST-Delivery/public/associations.json'))
+                        pairs_per_box = get_pairs_per_box(pairs_lookup, article, sizes[col], load_associations_data(association_json_path))
                     except Exception as e:
                         raise Exception(f"Ошибка на строке {row}: {str(e)}")
                     

@@ -6,7 +6,9 @@ import traceback # Для более подробной информации о�
 from flask_cors import CORS
 import io
 import zipfile
-
+script_dir = os.path.dirname(os.path.abspath(__file__))
+Articles_file = os.path.join(script_dir, '../../public' , 'Article.json')
+association_json_path = os.path.join(script_dir, '../../public' , 'associations.json')
 # Импортируем функции из других модулей
 from utils.data_processing import excel_to_json_from_stream, HEADERS
 from utils.pdf_utils import json_to_pdf_buffer
@@ -65,7 +67,7 @@ def generate_labels_from_excel():
         if not brand or brand not in HEADERS:
             return jsonify({'error': 'Неверный или отсутствующий бренд'}), 400
 
-        models_data = excel_to_json_from_stream(file_stream, 'D:/Repo-Projects/BEST-Delivery/public/Article.json')
+        models_data = excel_to_json_from_stream(file_stream, Articles_file, association_json_path)
         # --- Конец проверок и получения данных ---
 
         # --- Генерация PDF в памяти ---

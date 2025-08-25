@@ -182,7 +182,7 @@ const OZONBarcodeModule = (function() {
       formDataObj.append('brand', companyInput.value);
     }
 
-    fetch('http://192.168.100.33:5000/generate_labels_from_excel', {
+    fetch(`http://${window.location.hostname}:5000/generate_labels_from_excel`, {
       method: 'POST',
       body: formDataObj
     })
