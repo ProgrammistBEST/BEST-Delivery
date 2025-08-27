@@ -1,4 +1,3 @@
-// Основной модуль для работы с OZON barcode
 const OZONBarcodeModule = (function() {
   // Приватные переменные
   let modal;
@@ -22,6 +21,16 @@ const OZONBarcodeModule = (function() {
     fileInfo = document.getElementById("fileInfo");
     fileName = document.getElementById("fileName");
     removeFileButton = document.getElementById("removeFile");
+
+    setupFileInput('drop-zone-ozon', 'file-input', file => {
+        if (isExcelFile(file)) {
+            displayFileInfo(file);
+            updateFileInput(file);
+        } else {
+            showNotification("Пожалуйста, выберите Excel файл (.xlsx или .xls)", 'error');
+            fileInput.value = "";
+        }
+    });
   }
 
   // Инициализация обработчиков событий
@@ -115,7 +124,8 @@ const OZONBarcodeModule = (function() {
       displayFileInfo(file);
       updateFileInput(file);
     } else {
-      showFileValidationError();
+      showNotification("Пожалуйста, выберите Excel файл (.xlsx или .xls)", 'error');
+      fileInput.value = "";
     }
   }
 
@@ -133,11 +143,6 @@ const OZONBarcodeModule = (function() {
     const dataTransfer = new DataTransfer();
     dataTransfer.items.add(file);
     fileInput.files = dataTransfer.files;
-  }
-
-  function showFileValidationError() {
-    alert("Пожалуйста, выберите Excel файл (.xlsx или .xls)");
-    fileInput.value = "";
   }
 
   // Сбор данных формы

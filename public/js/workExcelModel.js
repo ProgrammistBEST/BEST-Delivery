@@ -5,8 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     fileNameDisplay.className = 'file-name-display';
     dropZone.appendChild(fileNameDisplay);
 
-    // Открываем окно выбора файла при клике
-    dropZone.addEventListener('click', () => fileInput.click());
+    // Назначаем обработчик только если он еще не назначен
+    if (!dropZone.hasAttribute('data-click-handler')) {
+        dropZone.addEventListener('click', () => fileInput.click());
+        dropZone.setAttribute('data-click-handler', 'true');
+    }
 
     // Предотвращаем стандартное поведение для событий drag и drop
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
@@ -43,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleFiles(files) {
         Array.from(files).forEach(file => {
             fileNameDisplay.textContent = `Выбранный файл: ${file.name}`;
+            fileNameDisplay.style.color = '';
             if (file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' ||
                 file.type === 'application/vnd.ms-excel') {
                 console.log(`Файл принят: ${file.name}`);
@@ -61,6 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         fileInput.files = dataTransfer.files; // Обновляем файлы в input
     }
+
+    setupFileInput('drop-zone', 'file-input', file => {
+        // Здесь логика обработки выбранного файла
+        const fileNameDisplay = document.querySelector('.file-name-display');
+        fileNameDisplay.textContent = `Выбранный файл: ${file.name}`;
+        fileNameDisplay.style.color = '';
+        // ...дополнительная логика...
+    });
 });
 
 // Обработка кнопки загрузки и обработки файла
@@ -78,7 +90,7 @@ document.getElementById('downloadDelivery').addEventListener('click', async () =
         // Чтение первой страницы
         const firstSheetName = workbook.SheetNames[0];
         const worksheet = workbook.Sheets[firstSheetName];
-        const notification = createNotification('Загрузка и обработка файла началась...', 'info');
+        const notification = showNotification('Загрузка и обработка файла началась...', 'info');
         // Преобразование данных в JSON
         const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
 
@@ -87,7 +99,7 @@ document.getElementById('downloadDelivery').addEventListener('click', async () =
 
         // Рендеринг данных
         await renderObjects(cards);
-        await fetchAndCompareJson(cards);
+        await fetchAndCompareJson();
 
         // Создание кнопки "Сформировать"
         if (document.querySelector('.checked-model')) {
@@ -99,13 +111,12 @@ document.getElementById('downloadDelivery').addEventListener('click', async () =
         updateNotification(notification, 'Файл успешно обработан и данные добавлены!', 'success');
     } catch (error) {
         console.error('Ошибка при обработке файла:', error);
-        createNotification('Ошибка при загрузке и обработке файла. Проверьте данные.', 'danger');
+        showNotification('Ошибка при загрузке и обработке файла. Проверьте данные.', 'danger');
     }
 });
 
 // Загрузка и сравнение данных с Article.json
-async function fetchAndCompareJson(cards) {
-    console.log(cards + ' Карточки на кочке и на точке')
+async function fetchAndCompareJson() {
     const jsonUrl = './Article.json';
     let inputsAll = document.querySelectorAll('.sizeBox');
     const inputsArray = Array.from(inputsAll);

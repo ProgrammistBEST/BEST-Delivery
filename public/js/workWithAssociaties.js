@@ -18,19 +18,6 @@ closeFormButton.addEventListener('click', () => {
     delete articleForm.dataset.editIndex; // Убираем режим редактирования
 });
 
-// Создание уведомления
-function showNotification(message, type = 'success') {
-    const notification = document.createElement('div');
-    notification.className = `notification ${type}`;
-    notification.textContent = message;
-
-    notificationContainer.appendChild(notification);
-
-    setTimeout(() => {
-        notification.remove();
-    }, 4000);
-}
-
 // Обновление списка
 async function updateArticleList() {
     try {

@@ -934,7 +934,7 @@ const DATA_FILE = path.join(__dirname, 'public/associations.json');
 
 // Middleware для обработки JSON
 app.use(express.json());
-app.use(express.static('public')); // Для доступа к клиентским файлам
+app.use(express.static('public'));
 
 // Проверка существования файла JSON
 if (!fs.existsSync(DATA_FILE)) {
@@ -1011,6 +1011,30 @@ app.put('/api/associations/:simple', (req, res) => {
     fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 
     res.json(data[index]);
+});
+
+const upload = require('./middleware/upload');
+const { processExcelData } = require('./utils/fileHandler');
+
+// Endpoint для обработки Excel файла
+app.post('/api/process-excel', upload.single('file'), async (req, res) => {
+    try {
+        if (!req.file) {
+            return res.status(400).json({ error: 'Файл не загружен' });
+        }
+
+        // Обрабатываем файл
+        const resultBuffer = await processExcelData(req.file.buffer);
+
+        // Отправляем результат
+        res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        res.setHeader('Content-Disposition', 'attachment; filename="result.xlsx"');
+        res.send(resultBuffer);
+
+    } catch (error) {
+        console.error('Ошибка при обработке:', error.message);
+        res.status(500).json({ error: error.message });
+    }
 });
 
 const PORT = 7000;

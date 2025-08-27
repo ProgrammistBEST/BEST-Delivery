@@ -41,10 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
             ));
 
-            alert('Данные успешно обновлены!');
+            showNotification('Данные успешно обновлены!', 'success');
         } catch (error) {
             console.error('Ошибка:', error);
-            alert('Ошибка при обновлении данных.');
+            showNotification('Ошибка при обновлении данных.', 'error');
         }
     });
 });
@@ -106,8 +106,6 @@ function sortModels(models) {
         return modelA.suffix.localeCompare(modelB.suffix);
     });
 }
-
-// Уведомления
 function showNotification(message, type) {
     const notification = document.createElement('div');
     notification.textContent = message;
@@ -123,5 +121,3 @@ function showNotification(message, type) {
         notification.remove();
     }, 5000);
 }
-
-

@@ -1,0 +1,2013 @@
+[
+  {
+    "grid_id": 2,
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "models": [
+      {
+        "model": "030",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "030-1",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 40
+          },
+          {
+            "size": "40",
+            "quantity": 45
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "030-10",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "030-14",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 40
+          },
+          {
+            "size": "39",
+            "quantity": 40
+          },
+          {
+            "size": "40",
+            "quantity": 30
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "030-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "030-6",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "030-7",
+        "sizes": [
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "031-10",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "031-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "031-6",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "032-1",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "032-10",
+        "sizes": [
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "033-10",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "033-14",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "033-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "033-6",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "033-7",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "034-10",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "034-2",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "034-6",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "035-10",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "035-14",
+        "sizes": [
+          {
+            "size": "39",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "035-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "035-6",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "036-2",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "036-6",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "040",
+        "sizes": [
+          {
+            "size": "42",
+            "quantity": 15
+          },
+          {
+            "size": "43",
+            "quantity": 15
+          },
+          {
+            "size": "44",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "040-1",
+        "sizes": [
+          {
+            "size": "44",
+            "quantity": 15
+          },
+          {
+            "size": "45",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "040-14",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "45",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "040-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 30
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          },
+          {
+            "size": "43",
+            "quantity": 30
+          },
+          {
+            "size": "44",
+            "quantity": 30
+          },
+          {
+            "size": "45",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "041",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          },
+          {
+            "size": "43",
+            "quantity": 30
+          },
+          {
+            "size": "44",
+            "quantity": 15
+          },
+          {
+            "size": "45",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "041-1",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "44",
+            "quantity": 30
+          },
+          {
+            "size": "45",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "041-14",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 15
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          },
+          {
+            "size": "43",
+            "quantity": 15
+          },
+          {
+            "size": "44",
+            "quantity": 30
+          },
+          {
+            "size": "45",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "041-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 15
+          },
+          {
+            "size": "41",
+            "quantity": 30
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          },
+          {
+            "size": "43",
+            "quantity": 30
+          },
+          {
+            "size": "44",
+            "quantity": 30
+          },
+          {
+            "size": "45",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "065",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "065-3",
+        "sizes": [
+          {
+            "size": "44",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "067-1",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "072-1",
+        "sizes": [
+          {
+            "size": "34",
+            "quantity": 20
+          },
+          {
+            "size": "35",
+            "quantity": 40
+          },
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "39",
+            "quantity": 60
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "072-10",
+        "sizes": [
+          {
+            "size": "34",
+            "quantity": 20
+          },
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "072-2",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "072-7",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "073-1",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "073-10",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "073-12",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 40
+          },
+          {
+            "size": "37",
+            "quantity": 100
+          },
+          {
+            "size": "38",
+            "quantity": 100
+          }
+        ]
+      },
+      {
+        "model": "073-2",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "073-6",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "073-7",
+        "sizes": [
+          {
+            "size": "42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "075-1",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "075-10",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "075-2",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "077-1",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 60
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 45
+          }
+        ]
+      },
+      {
+        "model": "077",
+        "sizes": [
+          {
+            "size": "39",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "077-10",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "077-2",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 20
+          },
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "077-7",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "080",
+        "sizes": [
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "080-1",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 40
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          },
+          {
+            "size": "45",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "080-2",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 40
+          },
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "43",
+            "quantity": 15
+          },
+          {
+            "size": "44",
+            "quantity": 45
+          },
+          {
+            "size": "45",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "080-3",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 20
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 30
+          },
+          {
+            "size": "43",
+            "quantity": 45
+          },
+          {
+            "size": "44",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "086",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "086-2",
+        "sizes": [
+          {
+            "size": "39",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "086-3",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 30
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "090-6",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "093-6",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "093-7",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "097-6",
+        "sizes": [
+          {
+            "size": "41",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "098",
+        "sizes": [
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "43",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "098-1",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 30
+          },
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 60
+          },
+          {
+            "size": "39",
+            "quantity": 60
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          },
+          {
+            "size": "43",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "098-6",
+        "sizes": [
+          {
+            "size": "36",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "098-7",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 20
+          },
+          {
+            "size": "41",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "099-10",
+        "sizes": [
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "403",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 10
+          },
+          {
+            "size": "38",
+            "quantity": 10
+          },
+          {
+            "size": "40",
+            "quantity": 10
+          },
+          {
+            "size": "41",
+            "quantity": 10
+          },
+          {
+            "size": "42",
+            "quantity": 20
+          },
+          {
+            "size": "43",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "411",
+        "sizes": [
+          {
+            "size": "42",
+            "quantity": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 1,
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35"
+    ],
+    "models": [
+      {
+        "model": "084",
+        "sizes": [
+          {
+            "size": "24",
+            "quantity": 40
+          },
+          {
+            "size": "25",
+            "quantity": 40
+          },
+          {
+            "size": "27",
+            "quantity": 40
+          },
+          {
+            "size": "28",
+            "quantity": 40
+          },
+          {
+            "size": "29",
+            "quantity": 40
+          },
+          {
+            "size": "34",
+            "quantity": 60
+          },
+          {
+            "size": "35",
+            "quantity": 60
+          }
+        ]
+      },
+      {
+        "model": "084-1",
+        "sizes": [
+          {
+            "size": "24",
+            "quantity": 40
+          },
+          {
+            "size": "25",
+            "quantity": 40
+          },
+          {
+            "size": "27",
+            "quantity": 40
+          },
+          {
+            "size": "29",
+            "quantity": 40
+          },
+          {
+            "size": "30",
+            "quantity": 30
+          },
+          {
+            "size": "32",
+            "quantity": 30
+          },
+          {
+            "size": "34",
+            "quantity": 30
+          },
+          {
+            "size": "35",
+            "quantity": 60
+          }
+        ]
+      },
+      {
+        "model": "084-2",
+        "sizes": [
+          {
+            "size": "26",
+            "quantity": 40
+          },
+          {
+            "size": "29",
+            "quantity": 40
+          },
+          {
+            "size": "32",
+            "quantity": 30
+          },
+          {
+            "size": "34",
+            "quantity": 60
+          },
+          {
+            "size": "35",
+            "quantity": 60
+          }
+        ]
+      },
+      {
+        "model": "094-1",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 90
+          }
+        ]
+      },
+      {
+        "model": "094-10",
+        "sizes": [
+          {
+            "size": "34",
+            "quantity": 60
+          },
+          {
+            "size": "35",
+            "quantity": 60
+          }
+        ]
+      },
+      {
+        "model": "094-2",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "094-4",
+        "sizes": [
+          {
+            "size": "26",
+            "quantity": 40
+          },
+          {
+            "size": "27",
+            "quantity": 40
+          },
+          {
+            "size": "28",
+            "quantity": 40
+          },
+          {
+            "size": "32",
+            "quantity": 60
+          }
+        ]
+      },
+      {
+        "model": "094-5",
+        "sizes": [
+          {
+            "size": "24",
+            "quantity": 40
+          },
+          {
+            "size": "25",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "094-6",
+        "sizes": [
+          {
+            "size": "32",
+            "quantity": 30
+          },
+          {
+            "size": "33",
+            "quantity": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 12,
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36"
+    ],
+    "models": [
+      {
+        "model": "094-11",
+        "sizes": [
+          {
+            "size": "35",
+            "quantity": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 4,
+    "sizes": [
+      "27-28",
+      "29-30",
+      "31-32",
+      "33-34",
+      "35-36"
+    ],
+    "models": [
+      {
+        "model": "70-5",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "70-7",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "71-5",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 15
+          }
+        ]
+      },
+      {
+        "model": "73-5",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 5,
+    "sizes": [
+      "35-36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41-42"
+    ],
+    "models": [
+      {
+        "model": "81-1",
+        "sizes": [
+          {
+            "size": "37",
+            "quantity": 10
+          },
+          {
+            "size": "38",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 10
+          },
+          {
+            "size": "41-42",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "81-14",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 10
+          },
+          {
+            "size": "37",
+            "quantity": 30
+          },
+          {
+            "size": "38",
+            "quantity": 10
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 10
+          },
+          {
+            "size": "41-42",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "model": "81-3",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 30
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 50
+          },
+          {
+            "size": "39",
+            "quantity": 40
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          },
+          {
+            "size": "41-42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "81-5",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 30
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 40
+          },
+          {
+            "size": "39",
+            "quantity": 20
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          },
+          {
+            "size": "41-42",
+            "quantity": 40
+          }
+        ]
+      },
+      {
+        "model": "81-7",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 40
+          },
+          {
+            "size": "38",
+            "quantity": 30
+          },
+          {
+            "size": "39",
+            "quantity": 10
+          },
+          {
+            "size": "40",
+            "quantity": 10
+          },
+          {
+            "size": "41-42",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "model": "82-14",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 20
+          },
+          {
+            "size": "37",
+            "quantity": 30
+          },
+          {
+            "size": "39",
+            "quantity": 40
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          },
+          {
+            "size": "41-42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "82-5",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 20
+          },
+          {
+            "size": "38",
+            "quantity": 30
+          },
+          {
+            "size": "39",
+            "quantity": 30
+          },
+          {
+            "size": "40",
+            "quantity": 40
+          },
+          {
+            "size": "41-42",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "82-6",
+        "sizes": [
+          {
+            "size": "41-42",
+            "quantity": 30
+          }
+        ]
+      },
+      {
+        "model": "82-7",
+        "sizes": [
+          {
+            "size": "35-36",
+            "quantity": 10
+          },
+          {
+            "size": "40",
+            "quantity": 20
+          }
+        ]
+      },
+      {
+        "model": "83-6",
+        "sizes": [
+          {
+            "size": "40",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "model": "83-7",
+        "sizes": [
+          {
+            "size": "38",
+            "quantity": 10
+          },
+          {
+            "size": "41-42",
+            "quantity": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 3,
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48"
+    ],
+    "models": [
+      {
+        "model": "103-2",
+        "sizes": [
+          {
+            "size": "45",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "model": "110-black",
+        "sizes": [
+          {
+            "size": "48",
+            "quantity": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 6,
+    "sizes": [
+      "40-41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46-47"
+    ],
+    "models": [
+      {
+        "model": "60-5",
+        "sizes": [
+          {
+            "size": "40-41",
+            "quantity": 20
+          },
+          {
+            "size": "42",
+            "quantity": 40
+          },
+          {
+            "size": "43",
+            "quantity": 30
+          },
+          {
+            "size": "44",
+            "quantity": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "grid_id": 7,
+    "sizes": [
+      "38",
+      "40-41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46-47"
+    ],
+    "models": [
+      {
+        "model": "61-5",
+        "sizes": [
+          {
+            "size": "42",
+            "quantity": 40
+          },
+          {
+            "size": "43",
+            "quantity": 40
+          }
+        ]
+      }
+    ]
+  }
+]
