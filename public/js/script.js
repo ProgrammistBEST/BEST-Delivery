@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Инициализация Select2
-    // $('.form-select').select2();
-
     // Открытие и закрытие модального окна
     const modal = document.getElementById('modelModal');
     const openModalButton = document.getElementById('openModalButton');
@@ -45,6 +42,47 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Ошибка:', error);
             showNotification('Ошибка при обновлении данных.', 'error');
+        }
+    });
+
+    // === НОВАЯ ЛОГИКА ===
+    // Делегирование события изменения в полях размеров
+    document.addEventListener('input', async (e) => {
+        if (e.target.classList.contains('box-input')) {
+            const input = e.target;
+            const pair = parseInt(input.value, 10);
+            const sizeClass = [...input.classList].find(cls => cls.startsWith('Item'));
+            const size = sizeClass ? sizeClass.replace('Item', '') : null;
+            const vendorcodeElement = input.closest('.row-model').querySelector('.name');
+            const vendorcode = vendorcodeElement ? vendorcodeElement.textContent.trim() : null;
+
+            if (!vendorcode || !size || isNaN(pair)) {
+                console.warn('Недостаточно данных для обновления:', { vendorcode, size, pair });
+                return;
+            }
+
+            const payload = {
+                Vendorcode: vendorcode,
+                Size: size,
+                Pair: pair,
+            };
+
+            try {
+                const response = await fetch('/api/update', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                });
+
+                if (response.ok) {
+                    showNotification(`Размер ${size} для модели ${vendorcode} обновлён на ${pair}`, 'success');
+                } else {
+                    showNotification('Ошибка при обновлении размера', 'error');
+                }
+            } catch (error) {
+                console.error('Ошибка:', error);
+                showNotification('Ошибка сети при обновлении', 'error');
+            }
         }
     });
 });
@@ -106,6 +144,7 @@ function sortModels(models) {
         return modelA.suffix.localeCompare(modelB.suffix);
     });
 }
+
 function showNotification(message, type) {
     const notification = document.createElement('div');
     notification.textContent = message;

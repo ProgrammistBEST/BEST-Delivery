@@ -886,6 +886,7 @@ app.get('/:companyName/api/articles', async (req, res) => {
 // Эндпоинт для обновления или добавления данных
 app.post('/api/update', async (req, res) => {
     try {
+        
         const newData = req.body; // { vendorCode, Size, Pair }
         const filePath = path.join(__dirname, "public/Article.json");
         const data = await readJsonPath(filePath);

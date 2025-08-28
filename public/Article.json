@@ -12061,5 +12061,55 @@
     "Vendorcode": "086-2",
     "Size": "39",
     "Pair": "40"
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "41",
+    "Pair": 2
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "41",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "42",
+    "Pair": 2
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "42",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "43",
+    "Pair": 2
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "43",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "44",
+    "Pair": 2
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "44",
+    "Pair": 20
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "45",
+    "Pair": 2
+  },
+  {
+    "Vendorcode": "34",
+    "Size": "45",
+    "Pair": 20
   }
 ]
