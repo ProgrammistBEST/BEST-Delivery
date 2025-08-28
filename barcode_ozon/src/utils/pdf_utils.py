@@ -34,7 +34,7 @@ def add_pdf_page(c, brand, city, barcode, number=""):
     c.drawCentredString(60*mm, -26*mm, barcode)
     c.setFillColorRGB(0, 0, 0, 1)
     if number:
-        c.drawCentredString(110*mm, -10*mm, "\u2116 "+number)
+        c.drawCentredString(100*mm, -10*mm, "\u2116 "+number)
 
     c.drawCentredString(20*mm, -10*mm, city)
     code_width = 121
@@ -51,16 +51,15 @@ def json_to_pdf_buffer(brand, city, models, number):
     """
     Генерирует PDF-файлы в памяти, создает ZIP-архив с отдельными PDF 
     и один общий PDF со всеми этикетками.
-    Возвращает кортеж: (zip_buffer, combined_pdf_buffer)
+    Возвращает кортеж: (zip_buffer, combined_pdf_buffer, warnings, duplicates)
     """
-    # Создаем буфер в памяти для итогового ZIP-архива
     zip_buffer = io.BytesIO()
-    
-    # Создаем буфер в памяти для объединенного PDF
     combined_pdf_buffer = io.BytesIO()
     combined_canvas = Canvas(combined_pdf_buffer, pagesize=(75 * mm, 120 * mm))
+    warnings = []
+    duplicates = set()
+    written_files = set()
 
-    # Создаем ZIP-файл в этом буфере
     with zipfile.ZipFile(zip_buffer, 'w', zipfile.ZIP_DEFLATED) as zip_file:
         for row_key, model_data in models.items():
             article = model_data["article"]
@@ -70,39 +69,34 @@ def json_to_pdf_buffer(brand, city, models, number):
 
             # Проверка расхождений
             if box_count_file != box_count_calc:
-                print(f"Предупреждение для {article}: box_count_file ({box_count_file}) != box_count_calc ({box_count_calc}). Используется box_count_file для генерации.")
+                warnings.append(
+                    f"Предупреждение для {article}: box_count_file ({box_count_file}) != box_count_calc ({box_count_calc}). Используется box_count_file для генерации."
+                )
 
-            # Генерация этикеток для каждого размера
             for count_data in counts:
                 size = count_data["size"]
                 num_boxes_for_size = count_data.get("boxes", 1)
                 barcode_content = f"{article} ({size})"
+                pdf_filename_in_zip = f"{brand}/{article}/{size}.pdf"
 
-                # Генерация PDF в памяти для отдельного файла
+                # Проверка дубликатов
+                if pdf_filename_in_zip in written_files:
+                    duplicates.add(pdf_filename_in_zip)
+                    continue  # Не добавляем дубликат!
+                written_files.add(pdf_filename_in_zip)
+
                 single_pdf_buffer = io.BytesIO()
                 single_canvas = Canvas(single_pdf_buffer, pagesize=(75 * mm, 120 * mm))
-                
                 for i in range(num_boxes_for_size):
-                    # Добавляем страницу в отдельный PDF
                     add_pdf_page(single_canvas, brand, city, barcode_content, str(number))
-                    # Добавляем ту же страницу в общий PDF
                     add_pdf_page(combined_canvas, brand, city, barcode_content, str(number))
-                
-                # Сохраняем и закрываем отдельный PDF
                 single_canvas.save()
                 single_pdf_buffer.seek(0)
-
-                # Добавляем отдельный PDF в ZIP-архив
-                pdf_filename_in_zip = f"{brand}/{article}/{size}.pdf"
                 zip_file.writestr(pdf_filename_in_zip, single_pdf_buffer.getvalue())
                 single_pdf_buffer.close()
 
-        # Сохраняем и закрываем объединенный PDF
         combined_canvas.save()
         combined_pdf_buffer.seek(0)
 
     zip_buffer.seek(0)
-    # combined_pdf_buffer уже установлен на начало
-    
-    # Возвращаем оба буфера
-    return zip_buffer, combined_pdf_buffer
+    return zip_buffer, combined_pdf_buffer, warnings, list(duplicates)

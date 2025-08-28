@@ -73,7 +73,20 @@ def generate_labels_from_excel():
         # --- Генерация PDF в памяти ---
         # zip_buffer - содержит структуру папок с отдельными PDF
         # combined_pdf_buffer - содержит один PDF со всеми этикетками
-        zip_buffer, combined_pdf_buffer = json_to_pdf_buffer(brand, city, models_data, str(supply_number))
+        zip_buffer, combined_pdf_buffer, warnings, duplicates = json_to_pdf_buffer(brand, city, models_data, str(supply_number))
+
+        if duplicates:
+            return jsonify({
+                'error': 'Обнаружены дубликаты PDF файлов. Пожалуйста, удалите их и повторите процесс.',
+                'duplicates': duplicates
+            }), 400
+
+        if warnings:
+            return jsonify({
+                'warning': 'Обнаружены несоответствия данных. Требуется подтверждение/коррекция.',
+                'warnings': warnings,
+                'raw_data': models_data
+            }), 202
 
         # --- Создание финального ZIP-архива ---
         final_zip_buffer = io.BytesIO()
@@ -137,6 +150,47 @@ def update_barcodes_from_ozon():
         print(f"Ошибка в /update_barcodes_from_ozon: {e}")
         traceback.print_exc()
         return jsonify({'error': f'Произошла ошибка при обновлении: {str(e)}'}), 500
+
+@app.route('/resolve_label_warnings', methods=['POST'])
+def resolve_label_warnings():
+    """
+    Получает исправленные данные от клиента, генерирует архив и PDF.
+    """
+    try:
+        data = request.get_json()
+        brand = data.get('brand')
+        city = data.get('city')
+        supply_number = data.get('supply_number', "")
+        models_data = data.get('models_data')
+
+        if not brand or not models_data:
+            return jsonify({'error': 'Отсутствуют необходимые данные'}), 400
+
+        zip_buffer, combined_pdf_buffer, warnings, duplicates = json_to_pdf_buffer(brand, city, models_data, str(supply_number))
+
+        if duplicates:
+            return jsonify({
+                'error': 'Обнаружены дубликаты PDF файлов. Пожалуйста, удалите их и повторите процесс.',
+                'duplicates': duplicates
+            }), 400
+
+        # --- Создание финального ZIP-архива ---
+        final_zip_buffer = io.BytesIO()
+        with zipfile.ZipFile(final_zip_buffer, 'w', zipfile.ZIP_DEFLATED) as final_zip:
+            final_zip.writestr(f"{brand}_{supply_number or 'labels'}_structured.zip", zip_buffer.getvalue())
+            final_zip.writestr(f"{brand}_{supply_number or 'labels'}_all.pdf", combined_pdf_buffer.getvalue())
+        final_zip_buffer.seek(0)
+        final_filename = f"{brand}_{supply_number or 'labels'}_package.zip"
+        return send_file(
+            final_zip_buffer,
+            as_attachment=True,
+            download_name=final_filename,
+            mimetype='application/zip'
+        )
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        return jsonify({'error': f'Произошла ошибка: {str(e)}'}), 500
 
 CORS(app)
 if __name__ == '__main__':

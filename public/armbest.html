@@ -130,6 +130,25 @@
       </div>
     </div>
   </div>
+
+  <!-- Модальное окно для предупреждений -->
+  <div class="modal fade" id="warningsModal" tabindex="-1" role="dialog" aria-labelledby="warningsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="warningsModalLabel">Обнаружены несоответствия данных</h5>
+        </div>
+        <div class="modal-body">
+          <div id="warningsList"></div>
+          <form id="resolveWarningsForm">
+            <div id="rawDataEditor"></div>
+            <button type="submit" class="btn btn-success mt-3">Подтвердить и продолжить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <!-- Подключение библиотек -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script src="./libraries/bootstrap_v5/js/bootstrap.bundle.min.js"></script>

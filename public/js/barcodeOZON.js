@@ -22,6 +22,12 @@ const OZONBarcodeModule = (function() {
     fileName = document.getElementById("fileName");
     removeFileButton = document.getElementById("removeFile");
 
+    // Назначаем обработчик только если он еще не назначен
+    if (!dropZone.hasAttribute('data-click-handler')) {
+      dropZone.addEventListener('click', () => fileInput.click());
+      dropZone.setAttribute('data-click-handler', 'true');
+    }
+
     setupFileInput('drop-zone-ozon', 'file-input', file => {
         if (isExcelFile(file)) {
             displayFileInfo(file);
@@ -44,8 +50,11 @@ const OZONBarcodeModule = (function() {
 
   // Настройка drag and drop функциональности
   function setupDragAndDrop() {
-    // Открытие файлового диалога при клике
-    dropZone.addEventListener('click', () => fileInput.click());
+    // Удаляем лишний обработчик открытия окна выбора файла!
+    // if (!dropZone.hasAttribute('data-click-handler')) {
+    //   dropZone.addEventListener('click', () => fileInput.click());
+    //   dropZone.setAttribute('data-click-handler', 'true');
+    // }
 
     // Предотвращение стандартного поведения
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
@@ -180,8 +189,7 @@ const OZONBarcodeModule = (function() {
     formDataObj.append('city', formData.city);
     formDataObj.append('supply_number', formData.supplyNumber);
     formDataObj.append('file', formData.file);
-    
-    // Получаем значение компании из скрытого input
+
     const companyInput = document.getElementById('company');
     if (companyInput) {
       formDataObj.append('brand', companyInput.value);
@@ -191,18 +199,19 @@ const OZONBarcodeModule = (function() {
       method: 'POST',
       body: formDataObj
     })
-    .then(response => {
-      // Проверяем, успешный ли ответ
-      if (!response.ok) {
-        // Если ошибка, пытаемся получить JSON с сообщением об ошибке
-        return response.json().then(errorData => {
-          throw new Error(errorData.error || 'Неизвестная ошибка');
-        });
-      }
-      
-      // Если успех, проверяем тип контента
+    .then(async response => {
       const contentType = response.headers.get('content-type');
-      
+      if (!response.ok) {
+        if (contentType && contentType.includes('application/json')) {
+          const errorData = await response.json();
+          if (errorData.duplicates) {
+            showDuplicatesModal(errorData.duplicates, errorData.error);
+            throw new Error(errorData.error);
+          }
+          throw new Error(errorData.error || 'Неизвестная ошибка');
+        }
+        throw new Error('Ошибка запроса');
+      }
       if (contentType && contentType.includes('application/zip')) {
         // Это ZIP-файл, скачиваем его
         const disposition = response.headers.get('content-disposition');
@@ -233,24 +242,116 @@ const OZONBarcodeModule = (function() {
           
           console.log('Файл успешно скачан:', filename);
         });
-      } else {
-        // Это JSON, обрабатываем как обычно
-        return response.json();
-      }
-    })
-    .then(data => {
-      if (data) {
-        console.log('Данные с сервера:', data);
-        // Здесь можно добавить обработку полученных данных
-        if (data.message) {
-          alert(data.message);
+      } else if (contentType && contentType.includes('application/json')) {
+        const data = await response.json();
+        if (data.warning && data.raw_data) {
+          showWarningsModal(data.warnings, data.raw_data, formDataObj.get('brand'), formDataObj.get('city'), formDataObj.get('supply_number'));
         }
+        return data;
       }
     })
     .catch(error => {
       console.error('Ошибка при отправке запроса:', error);
       alert('Произошла ошибка: ' + error.message);
     });
+  }
+
+  // Показываем модальное окно с предупреждениями и формой редактирования
+  function showWarningsModal(warnings, rawData, brand, city, supplyNumber) {
+    const modalEl = document.getElementById('warningsModal');
+    const warningsList = document.getElementById('warningsList');
+    const rawDataEditor = document.getElementById('rawDataEditor');
+    warningsList.innerHTML = `<ul>${warnings.map(w => `<li>${w}</li>`).join('')}</ul>`;
+
+    // Фильтруем только модели с ошибкой
+    const errorKeys = Object.keys(rawData).filter(key => rawData[key].box_count_file !== rawData[key].box_count_calc);
+
+    rawDataEditor.innerHTML = errorKeys.map(key => {
+      const model = rawData[key];
+      return `
+        <div class="mb-3 border p-2">
+          <strong>Артикул: ${model.article}</strong><br>
+          <span>Кол-во в файле: <b>${model.box_count_file}</b>, кол-во посчитано: <b>${model.box_count_calc}</b></span>
+          <div class="mt-2">
+            ${model.counts.map((count, idx) => `
+              <div class="mb-1">
+                <span>Размер: <b>${count.size}</b>, пар: <b>${count.pairs}</b></span>
+                <label>Коробок: <input type="number" name="boxes_${key}_${idx}" value="${count.boxes}" min="1" style="width:70px"></label>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Сохраняем данные для повторной отправки
+    modalEl.dataset.brand = brand;
+    modalEl.dataset.city = city;
+    modalEl.dataset.supplyNumber = supplyNumber;
+    modalEl.dataset.rawData = JSON.stringify(rawData);
+
+    // Показываем модальное окно
+    const bsModal = bootstrap.Modal.getOrCreateInstance(modalEl);
+    bsModal.show();
+
+    document.getElementById('resolveWarningsForm').onsubmit = function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const newRawData = JSON.parse(modalEl.dataset.rawData);
+
+      // Обновляем только те модели, которые были показаны
+      errorKeys.forEach(key => {
+        const model = newRawData[key];
+        model.counts.forEach((count, idx) => {
+          const inputName = `boxes_${key}_${idx}`;
+          if (form[inputName]) {
+            count.boxes = Number(form[inputName].value);
+          }
+        });
+        // Можно пересчитать box_count_calc, если нужно
+        model.box_count_calc = model.counts.reduce((sum, c) => sum + Number(c.boxes), 0);
+      });
+
+      fetch(`http://${window.location.hostname}:5000/resolve_label_warnings`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          brand: modalEl.dataset.brand,
+          city: modalEl.dataset.city,
+          supply_number: modalEl.dataset.supplyNumber,
+          models_data: newRawData
+        })
+      })
+      .then(async response => {
+        if (!response.ok) {
+          const errorData = await response.json();
+          alert(errorData.error || 'Ошибка');
+          return;
+        }
+        const contentType = response.headers.get('content-type');
+        if (contentType && contentType.includes('application/zip')) {
+          const blob = await response.blob();
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.style.display = 'none';
+          a.href = url;
+          a.download = `${modalEl.dataset.brand}_${modalEl.dataset.supplyNumber || 'labels'}_package.zip`;
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(url);
+          document.body.removeChild(a);
+          bootstrap.Modal.getOrCreateInstance(modalEl).hide();
+        }
+      })
+      .catch(err => {
+        alert('Ошибка: ' + err.message);
+      });
+    };
+  }
+
+  // Показываем модальное окно с дубликатами
+  function showDuplicatesModal(duplicates, errorMsg) {
+    alert(`${errorMsg}\nДубликаты:\n${duplicates.join('\n')}`);
   }
 
   // Сброс формы
