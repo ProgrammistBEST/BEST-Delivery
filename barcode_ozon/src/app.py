@@ -1,4 +1,3 @@
-# app.py
 import os
 import sys
 from flask import Flask, request, jsonify, send_file
@@ -9,6 +8,7 @@ import zipfile
 script_dir = os.path.dirname(os.path.abspath(__file__))
 Articles_file = os.path.join(script_dir, '../../public' , 'Article.json')
 association_json_path = os.path.join(script_dir, '../../public' , 'associations.json')
+
 # Импортируем функции из других модулей
 from utils.data_processing import excel_to_json_from_stream, HEADERS
 from utils.pdf_utils import json_to_pdf_buffer
@@ -21,9 +21,6 @@ else:
     # Если запущено как обычный .py файл
     base_path = os.path.dirname(os.path.abspath(__file__))
 
-# Переключаем рабочую директорию (может быть не обязательно, зависит от путей)
-# os.chdir(base_path) # Лучше избегать смены рабочей директории в веб-приложении
-
 app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # Максимальный размер загружаемого файла 100MB
 
@@ -31,11 +28,6 @@ app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # Максимальный
 UPLOAD_FOLDER = os.path.join(base_path, 'uploads')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
-# Регистрация шрифтов (если нужно использовать в PDF)
-# from reportlab.pdfbase import pdfmetrics
-# from reportlab.pdfbase.ttfonts import TTFont
-# pdfmetrics.registerFont(TTFont("Calibribd", os.path.join(base_path, "fonts", "calibri_bold.ttf")))
 
 @app.route('/health', methods=['GET'])
 def health_check():
@@ -66,12 +58,13 @@ def generate_labels_from_excel():
 
         if not brand or brand not in HEADERS:
             return jsonify({'error': 'Неверный или отсутствующий бренд'}), 400
-
-        models_data = excel_to_json_from_stream(file_stream, Articles_file, association_json_path)
+        
+        # Для проверки существования артикула
+        bd_aricles_json_path = os.path.join(script_dir, '../../public/jsonModel' , f"{brand}-model.json")
+        models_data = excel_to_json_from_stream(file_stream, Articles_file, association_json_path, bd_aricles_json_path)
+        
         # --- Конец проверок и получения данных ---
 
-        # --- Генерация PDF в памяти ---
-        # zip_buffer - содержит структуру папок с отдельными PDF
         # combined_pdf_buffer - содержит один PDF со всеми этикетками
         zip_buffer, combined_pdf_buffer, warnings, duplicates = json_to_pdf_buffer(brand, city, models_data, str(supply_number))
 
@@ -139,10 +132,6 @@ def update_barcodes_from_ozon():
         valid_brands = [b for b in brands if b in HEADERS]
         if not valid_brands:
             return jsonify({'error': 'Нет допустимых брендов для обновления'}), 400
-
-        # Вызов функции обновления для каждого бренда
-        # for brand in valid_brands:
-        #      barcodes_from_ozon(brand)
 
         return jsonify({'message': f'Этикетки для брендов {valid_brands} обновлены'}), 200
 

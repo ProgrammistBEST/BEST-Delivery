@@ -7,8 +7,23 @@ async function getDataFromExcelBuffer(buffer) {
         await workbook.xlsx.load(buffer);
 
         const worksheet = workbook.getWorksheet(1);
-        const quantities = worksheet.getColumn(2).values.slice(1);
-        const articleSizes = worksheet.getColumn(4).values.slice(1);
+        
+        // Проверяем содержимое ячейки A1
+        const cellA1Value = worksheet.getCell('A1').value;
+        const hasArtInA1 = cellA1Value && 
+            typeof cellA1Value === 'string' && 
+            cellA1Value.toLowerCase().startsWith('ар');
+
+        let quantities, articleSizes;
+
+        if (hasArtInA1) {
+            // Если в A1 есть "арт", то артикул в столбце A, пары/кол-во в столбце C
+            articleSizes = worksheet.getColumn(1).values.slice(1);
+            quantities = worksheet.getColumn(3).values.slice(1);
+        } else {
+            quantities = worksheet.getColumn(2).values.slice(1);
+            articleSizes = worksheet.getColumn(4).values.slice(1);
+        }
 
         return dataInObject(quantities, articleSizes);
     } catch (error) {
@@ -74,12 +89,77 @@ function createSizeToColumnIndexMap(sizes) {
     return sizeToColumnIndex;
 }
 
+// Функция для стилизации строк (ОБНОВЛЕННАЯ ФУНКЦИЯ)
+function styleRows(worksheet, startRow, endRow, isArticleRow = false) {
+    for (let rowNumber = startRow; rowNumber <= endRow; rowNumber++) {
+        const row = worksheet.getRow(rowNumber);
+        
+        // 1. Покрасить строки с A до O в серый или зеленый цвет
+        const fillColor = isArticleRow ? 'FFA9D08E' : 'ffe699'; // Зеленый для артикулов, серый для размеров
+        
+        for (let col = 1; col <= 15; col++) { // A до O
+            const cell = row.getCell(col);
+            cell.fill = {
+                type: 'pattern',
+                pattern: 'solid',
+                fgColor: { argb: fillColor }
+            };
+        }
+        
+        // 2. Добавить границы
+        for (let col = 1; col <= 15; col++) { // A до O
+            const cell = row.getCell(col);
+            // Для строк размеров - специальные жирные границы
+            if (col === 1) { // A - левая жирная граница
+                cell.border = {
+                    ...cell.border,
+                    left: { style: 'thick' },
+                    top: { style: 'thin' },
+                    bottom: { style: 'thin' },
+                    right: { style: 'thin' }
+                };
+            } else if (col === 3) { // C - правая жирная граница
+                cell.border = {
+                    ...cell.border,
+                    right: { style: 'thick' },
+                    top: { style: 'thin' },
+                    bottom: { style: 'thin' },
+                    left: { style: 'thin' }
+                };
+            } else if (col === 15) { // O - правая жирная граница
+                cell.border = {
+                    ...cell.border,
+                    right: { style: 'thick' },
+                    top: { style: 'thin' },
+                    bottom: { style: 'thin' },
+                    left: { style: 'thin' }
+                };
+            } else {
+                // Тонкие границы для остальных ячеек
+                cell.border = {
+                    top: { style: 'thin' },
+                    left: { style: 'thin' },
+                    bottom: { style: 'thin' },
+                    right: { style: 'thin' }
+                };
+            }
+        }
+        
+        // 3. Установить высоту строки в 26 пикселей (19.50 пунктов)
+        row.height = 26;
+    }
+}
+
 // Функция для записи размерной сетки
 async function writeSizeGrid(worksheet, currentRow, sizes) {
     const sizeRow = worksheet.getRow(currentRow);
     sizes.forEach((size, index) => {
         sizeRow.getCell(index + 4).value = size;
     });
+    
+    // Применяем стилизацию к строке размерной сетки (false = не строка артикулов)
+    styleRows(worksheet, currentRow, currentRow, false);
+    
     await sizeRow.commit();
     return currentRow + 1;
 }
@@ -106,6 +186,9 @@ async function writeModel(worksheet, currentRow, modelData, sizeToColumnIndex, m
         formula: sumFormula,
         result: 0
     };
+    
+    // Применяем стилизацию к строке модели (true = строка артикулов)
+    styleRows(worksheet, currentRow, currentRow, true);
     
     modelRows.push(currentRow);
     await modelRow.commit();

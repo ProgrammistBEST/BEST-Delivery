@@ -180,7 +180,7 @@ def get_pairs_per_box(pairs_lookup, article, size, associations_lookup=None):
     
     raise Exception(error_msg)
 
-def excel_to_json_from_stream(file_stream, json_file_path, association_json_path):
+def excel_to_json_from_stream(file_stream, json_file_path, association_json_path, bd_aricles_json_path):
     """
     Основная функция обработки Excel файла с использованием данных из JSON
     
@@ -198,7 +198,6 @@ def excel_to_json_from_stream(file_stream, json_file_path, association_json_path
     ws = wb.active
     
     sizes = {4:"41", 5:"42", 6:"43", 7:"44", 8:"45", 9:"46", 10:"47", 11:"48", 12:None, 13:None, 14:None, 15:None}
-    size_row = 4
     models = {}
 
     for row in range(5, ws.max_row + 1):
@@ -217,7 +216,6 @@ def excel_to_json_from_stream(file_stream, json_file_path, association_json_path
                     new_sizes[col] = None
             if not empty:
                 sizes = new_sizes
-                size_row = row
         else:
             article = str(article)
             box_count_file = ws.cell(row, 2).value
@@ -241,7 +239,7 @@ def excel_to_json_from_stream(file_stream, json_file_path, association_json_path
                     
                     # Получаем количество пар в коробку из JSON данных
                     try:
-                        pairs_per_box = get_pairs_per_box(pairs_lookup, article, sizes[col], load_associations_data(association_json_path))
+                        pairs_per_box = get_pairs_per_box(pairs_lookup, article, sizes[col], load_associations_data(association_json_path), bd_aricles_json_path)
                     except Exception as e:
                         raise Exception(f"Ошибка на строке {row}: {str(e)}")
                     
